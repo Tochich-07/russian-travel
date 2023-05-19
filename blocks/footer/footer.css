@@ -1,0 +1,25 @@
+.footer {
+    padding-left: 48px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter";
+
+}
+
+@media screen and (max-width: 620px) {
+    .footer {
+        padding-left: 24px;
+        flex-direction: column;
+        padding-left: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer {
+        padding-left: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

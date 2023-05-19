@@ -1,0 +1,17 @@
+.into__text {
+    max-width: 690px;
+    margin: 0;
+    margin-bottom: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 420px) {
+    .into__text {
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
