@@ -1,4 +1,4 @@
-.into__text {
+.intro__text {
     max-width: 690px;
     margin: 0;
     margin-bottom: 33px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 420px) {
-    .into__text {
+    .intro__text {
         font-size: 16px;
         line-height: 163%;
     }
