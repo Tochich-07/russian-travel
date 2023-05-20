@@ -1,4 +1,12 @@
-
 .place__block-links {
     align-self: flex-end;
+    display: grid;
+}
+
+
+@media screen and (max-width: 420px) {
+    .place__block-links {
+        order: 2;
+        padding-left: 16px;
+    }
 }

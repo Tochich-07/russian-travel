@@ -1,14 +1,27 @@
 .intro {
     display: flex;
     flex-direction: column;
-    padding-left: 148px;
+    padding: 0 148px;
     margin-bottom: 92px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 0 48px;
+    }
 }
 
 @media screen and (max-width: 950px) {
     .intro {
         padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .intro {
+        margin-bottom: 64px;
+        padding: 0 16px;
     }
 }

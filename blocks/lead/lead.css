@@ -5,25 +5,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 1024px) {
     .lead {
-        padding: 0 40px;
+        padding: 0 48px;
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
     .lead {
-        padding: 0 20px;
+        padding: 0;
     }
 }
 
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 420px) {
     .lead {
-        margin-bottom: 62px;
-        padding-left: 20px;
+        margin-bottom: 64px;
     }
 }
+

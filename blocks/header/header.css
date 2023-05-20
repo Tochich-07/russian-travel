@@ -1,13 +1,19 @@
 .header {
-    margin-bottom: 50px;
+    margin-bottom: 56px;
     padding: 0 48px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .header {
         padding: 0 24px;
     }
@@ -15,6 +21,7 @@
 
 @media screen and (max-width: 420px) {
     .header {
+        padding: 0 16px;
         align-items: center;
     }
 }
